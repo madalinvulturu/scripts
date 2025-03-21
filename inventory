@@ -4,16 +4,7 @@ ansible_ssh_user=mvulturu
 ansible_ssh_pass=Qmadvul1!
 
 [hosts]
-[web_servers]
-172.19.224.221
-172.19.224.225
-
-[db_servers]
-172.19.224.222
-
-[file_servers]
-172.19.224.223
-
-[workstations]
-172.19.224.201
-172.19.224.230
+172.19.224.221 ansible_ssh_port=22 ansible_ssh_host=172.19.224.221
+172.19.224.222 ansible_ssh_port=22 ansible_ssh_host=172.19.224.222
+172.19.224.223 ansible_ssh_port=22 ansible_ssh_host=172.19.224.223
+172.19.224.230 ansible_ssh_port=22 ansible_ssh_host=172.19.224.230
