@@ -3,7 +3,7 @@
 - hosts: all
   gather_facts: no
   tasks:
-  
-  - name: POWEROFF
-    command: /sbin/shutdown -h now
-#   sudo: yes
+    - name: Shut down the server
+      ansible.builtin.command: shutdown -h now "Powered off by Ansible"
+      async: 0
+      poll: 0
