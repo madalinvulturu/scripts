@@ -2,8 +2,8 @@
 anisble_connection=ssh
 
 [hosts]
-172.19.224.201 ansible_ssh_port=22 ansible_ssh_host=172.19.224.201
-172.19.224.221 ansible_ssh_port=22 ansible_ssh_host=172.19.224.221
-172.19.224.222 ansible_ssh_port=22 ansible_ssh_host=172.19.224.222
-172.19.224.223 ansible_ssh_port=22 ansible_ssh_host=172.19.224.223
-172.19.224.230 ansible_ssh_port=22 ansible_ssh_host=172.19.224.230
+172.19.224.201
+172.19.224.221
+172.19.224.222
+172.19.224.223
+172.19.224.230
