@@ -2,6 +2,7 @@
 - hosts: all
   gather_facts: no
   tasks:
-    - name: POWEROFF
-      command: /sbin/shutdown -h now
-      sudo: yes
+  
+  - name: POWEROFF
+    command: /sbin/shutdown -h now
+#   sudo: yes
