@@ -4,6 +4,4 @@
   gather_facts: no
   tasks:
     - name: Shut down the server
-      ansible.builtin.command: shutdown -h now "Powered off by Ansible"
-      async: 0
-      poll: 0
+      command: /sbin/shutdown -h now
