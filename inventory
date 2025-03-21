@@ -1,0 +1,10 @@
+[all:vars]
+anisble_connection=ssh
+ansible_ssh_user=root
+ansible_ssh_pass=VMware1!
+
+[hosts]
+172.19.224.232 ansible_ssh_port=22 ansible_ssh_host=172.19.224.232
+172.19.224.241 ansible_ssh_port=22 ansible_ssh_host=172.19.224.241
+172.19.224.242 ansible_ssh_port=22 ansible_ssh_host=172.19.224.242
+172.19.224.243 ansible_ssh_port=22 ansible_ssh_host=172.19.224.243
