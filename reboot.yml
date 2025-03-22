@@ -6,3 +6,4 @@
 
     - name: Shutdown the server
       command: shutdown -h now
+      become: yes
