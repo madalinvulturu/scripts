@@ -1,9 +1,11 @@
 [all:vars]
 anisble_connection=ssh
+ansible_python_interpreter=/usr/bin/python3.13
 
 [hosts]
 172.19.224.201
 172.19.224.221
 172.19.224.222
 172.19.224.223
+172.19.224.225 ansible_python_interpreter=/usr/local/bin/python3.13
 172.19.224.230
